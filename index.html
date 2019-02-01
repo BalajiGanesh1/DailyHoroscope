@@ -3,28 +3,68 @@
     <head>
         <meta charset="UTF-8">
         <title>Daily Horoscope</title>
+        <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script> <!-- FIREBASE INIT -->
+       <script src="Firebaseinit.js"></script>
+      
+        
+        <!-- FIREBASE AUTHENTICATION UI --->
+        <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+        <script src="Authentication.js"></script>
+      
 
-    	<link rel="stylesheet" href="css3.css">
-	<link rel="stylesheet" href="css9.css">
+    	<link rel="stylesheet" href="main.css">
+	
         
-</head>
+  </head>
     <body>
-        <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
-        <script>
-            // Initialize Firebase
-            var config = {
-                apiKey: "AIzaSyCTwM0Dhnr0cQBjJpyVltVrzejI2QsOKn8",
-                authDomain: "daily-horoscope-e4a39.firebaseapp.com",
-                databaseURL: "https://daily-horoscope-e4a39.firebaseio.com",
-                projectId: "daily-horoscope-e4a39",
-                storageBucket: "daily-horoscope-e4a39.appspot.com",
-                messagingSenderId: "17460378458"
-            };
-            firebase.initializeApp(config);
-        </script>
+        <div class="container">
+        <h1>welcome</h1>
+        <section class ="zodiacs">
+        <div class="row">
         
-        <script src="index.js"></script>
-         <input id=" inputText" type="text" name="textfield" placeholder="TextField">
-         <input id="submitButn " type="button" name="button">
+            <div class="col span-1-of-6">
+            <h1> zodiac1</h1>  
+            </div>
+
+            <div class="col span-2-of-6">
+                <h1> zodiac1</h1>  
+            </div>
+        
+            
+
+            <div class="col span-3-of-6">
+                <h1> zodiac1</h1>  
+            </div>
+        
+            
+        
+
+            <div class="col span-4-of-6">
+                <h1> zodiac1</h1>  
+            </div>
+            
+        
+            <div class="col span-5-of-6">
+                <h1> zodiac1</h1>  
+            </div>
+
+            <div class="col span-6-of-6">
+                <h1> zodiac1</h1>  
+            </div>
+            
+        </div>
+            
+            </section>
+        
+            
+        
+        
+        
+        
+        <div id="firebaseui-auth-container"></div>
+        
+         
+        </div>
     </body>
 </html>

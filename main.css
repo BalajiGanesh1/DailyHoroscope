@@ -1,0 +1,18 @@
+
+.btn-action {
+    padding: 10px;
+    color: blue;
+    background-color: whitesmoke;
+    box-shadow: 5px 0 5px 0;
+    font-family: fantasy;
+    transition-duration: 0.4s;
+}
+
+.container {
+    margin: 50px;
+}
+
+.btn-action:hover
+{
+    background-color: aqua;
+}
