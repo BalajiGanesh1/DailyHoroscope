@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <title>Daily Horoscope</title>
         <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script> <!-- FIREBASE INIT -->
-       <script src="Firebaseinit.js"></script>
-      
-        
+        <script src="Firebaseinit.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Baloo|Covered+By+Your+Grace|Grand+Hotel|Kreon|Pacifico|Rancho|Capriola" rel="stylesheet">
+ <!-- Fonts from google fonts-->
+            
         <!-- FIREBASE AUTHENTICATION UI --->
         <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
         <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
@@ -18,53 +20,61 @@
         
   </head>
     <body>
-        <div class="container">
-        <h1>welcome</h1>
+      
+        <header id ="header" class=" sticky-header"> 
+        <div class ="inner" id="nav-inner">  
+        
+        <a  style=" text-decoration: none " href="index.html" class ="Home" >  
+        
+        <div class= "logo" id ="logoImg">
+           
+            <img src="icons/hand.png" alt="palmLogo" height="100" width="100">
+            
+                 
+        <div class= "siteName" id= "siteName">
+             HORO-YOU
+        </div>
+
+            
+        </div>
+       
+            
+       
+        </a>
+        
+        </div>
+        </header>
+        
+        <div class="zodiacpred">
+        <img  id="rotating-zodiacwheel" src="zodiac-wheel.jpg" height="500" width="500" >
+            
+        </div>
+        
         <section class ="zodiacs">
-        <div class="row">
+      
         
-            <div class="col span-1-of-6">
-            <h1> zodiac1</h1>  
-            </div>
-
-            <div class="col span-2-of-6">
-                <h1> zodiac1</h1>  
-            </div>
+           
+            
+        </section>
         
-            
-
-            <div class="col span-3-of-6">
-                <h1> zodiac1</h1>  
-            </div>
+        <section class="Toro cards">
         
-            
         
-
-            <div class="col span-4-of-6">
-                <h1> zodiac1</h1>  
-            </div>
-            
         
-            <div class="col span-5-of-6">
-                <h1> zodiac1</h1>  
-            </div>
-
-            <div class="col span-6-of-6">
-                <h1> zodiac1</h1>  
-            </div>
-            
-        </div>
-            
-            </section>
+        </section>
+    
+    
+    
+         <div class= "Footer"></div>
         
             
         
         
         
+      
+      <!-- <div id="firebaseui-auth-container"></div>  -->
+    
         
-        <div id="firebaseui-auth-container"></div>
-        
-         
-        </div>
+      
     </body>
 </html>
