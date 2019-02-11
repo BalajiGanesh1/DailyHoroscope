@@ -1,3 +1,5 @@
+
+
 var config = {
     apiKey: "AIzaSyCTwM0Dhnr0cQBjJpyVltVrzejI2QsOKn8",
     authDomain: "daily-horoscope-e4a39.firebaseapp.com",
@@ -7,3 +9,8 @@ var config = {
     messagingSenderId: "17460378458"
 };
 firebase.initializeApp(config);
+
+
+
+
+
